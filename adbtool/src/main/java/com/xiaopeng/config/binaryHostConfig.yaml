@@ -1,0 +1,7 @@
+host : 192.168.0.118
+# ftp / smb
+protocol : ftp
+secondaryDirectory :
+  - android
+  - daily_binary
+  - develop

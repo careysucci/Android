@@ -1,0 +1,22 @@
+# 启动shell
+adb :
+  - adb                 #1
+  - adb shell           #2
+  - adb remount         #3
+  - adb push            #4
+  - adb pull            #5
+
+am:
+  # 启动activity
+  - am start
+  - am force-stop
+  - am broadcast
+
+# app安装路径
+apps :
+  - /system/app
+  - /data/app
+
+commons :
+  - rm -rf
+  - grep
